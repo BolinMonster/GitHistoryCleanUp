@@ -11,14 +11,14 @@ git add -A
 REM Fait le commit initial
 git commit -am "Commit initial"
 
-REM Supprime la branche master
-git branch -D master
+REM Supprime la branche main
+git branch -D main
 
-REM Renomme la branche temporaire en master
-git branch -m master
+REM Renomme la branche temporaire en main
+git branch -m main
 
-REM Pousse les changements vers la branche master
-git push -f origin master
+REM Pousse les changements vers la branche main
+git push -f origin main
 
 REM Supprime les anciens fichiers
 git gc --aggressive --prune=all
